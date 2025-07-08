@@ -1,0 +1,10 @@
+#to create a word game by filling random words to fill a story
+adj1 = input("Enter an adjective (description): ")
+noun1 = input("Enter a noun: ")
+adj2 = input("Enter a adjective (description): ")
+verb1 = input("Enter a verb ending with 'ing': ")
+adj3 = input("Enter a adjective (description): ")
+print(f"Today I went to a {adj1} zoo ")
+print(f"In a exhibit, I saw a {noun1} ")
+print(f"{noun1} was {adj2} and {verb1} ")
+print(f"I was {adj3}!")
