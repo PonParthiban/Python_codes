@@ -1,19 +1,19 @@
 #Calculator program
 print("--------------------------------------Calculator-------------------------------")
-opera = input("Enter the operation (+,-,*,/): ")
+operation = input("Enter the operation (+,-,*,/): ")
 num1 = int(input("Enter the value of num1: "))
 num2 = int(input("Enter the value of num2: "))
-if opera == "+":
+if operation == "+":
      result = num1 + num2
-     print(round(result, 3))
-elif opera == "-":
+     print(f"The sum of {num1} and {num2} is {round(result, 3)}")
+elif operation == "-":
      result = num1 - num2
-     print(round(result, 3))
-elif opera == "/":
+     print(f"The Difference of {num1} and {num2} is {round(result, 3)}")
+elif operation == "/":
      result = num1 / num2
-     print(round(result, 3))
-elif opera == "*":
+     print(f"The Divide of {num1} and {num2} is {round(result, 3)}")
+elif operation == "*":
      result = num1 * num2
-     print(round(result, 3))
+     print(f"The Product of {num1} and {num2} is {round(result, 3)}")
 else:
-     print("invalid choice!!,try again...")
+     print("Invalid choice!!,try again...")
