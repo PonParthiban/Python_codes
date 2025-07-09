@@ -20,7 +20,7 @@ def deposit():
 
 while is_running:
     print("******************************************************************")
-    print("\nBanking Program")
+    print("Banking Program")
     print("******************************************************************")
     print("1.Show Balance")
     print("2.Deposit")
